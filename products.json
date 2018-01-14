@@ -1,0 +1,24 @@
+{
+  "products": [
+    {
+      "name": "coat",
+      "color": "red",
+      "id": 1
+    },
+    {
+      "name": "pant",
+      "color": "black",
+      "id": 2
+    },
+    {
+      "name": "shirt",
+      "color": "white",
+      "id": 3
+    },
+    {
+      "name": "tie",
+      "color": "gray",
+      "id": 4
+    }
+  ]
+}
