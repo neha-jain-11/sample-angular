@@ -1,6 +1,9 @@
 # CrudOperations
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.3.
+Functionality includes basic crud operations.
+
+For back end, i have created the db.json and usin json server npm to run the services for crud operation.
 
 ## Development server
 
@@ -25,3 +28,10 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
+Web application using angular4 with angular cli.
+
+Functionality includes basic crud operations.
+
+For back end, i have created the db.json and usin json server npm to run the services for crud operation.

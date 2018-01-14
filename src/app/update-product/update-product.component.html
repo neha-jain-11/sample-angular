@@ -1,0 +1,14 @@
+<a routerLink='/'>back</a>
+<p *ngIf="!exist; else update">
+  Product does not exist. You can add the product using the link <a routerLink='/product'>Add product</a>
+</p>
+<ng-template #update>
+  <h2>Update Product</h2>
+  <form id='formNewProduct' name='formNewProduct' #productData='ngForm' (ngSubmit)='updateProduct(productData.value)'>
+    <label>Name:&nbsp;&nbsp;</label>
+    <input type='text' name='name1' id='name' placeholder='name' [(ngModel)]='data.name'><br>
+    <label>Color:&nbsp;&nbsp;</label>
+    <input type='text' name='color1' id='color' placeholder='color' [(ngModel)]='data.color'><br>  
+    <input type='submit' value='Update Product'>
+  </form>  
+</ng-template>

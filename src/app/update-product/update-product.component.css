@@ -1,0 +1,13 @@
+p {
+    font-size : 20px;
+    color : red;
+}
+
+form, label, input {
+    font-size: 20px;
+    padding: 10px;
+}
+
+input {
+    margin-top: 10px;
+}
