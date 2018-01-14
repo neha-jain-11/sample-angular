@@ -3,7 +3,7 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.3.
 Functionality includes basic crud operations.
 
-For back end, i have created the db.json and usin json server npm to run the services for crud operation.
+For back end, i have created the products.json and usin json server npm to run the services for crud operation.
 
 ## Development server
 
