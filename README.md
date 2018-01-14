@@ -5,6 +5,14 @@ Functionality includes basic crud operations.
 
 For back end, i have created the products.json and usin json server npm to run the services for crud operation.
 
+Steps to run the server:
+
+1. npm install -g json-server
+2. create a json file (or this project refer, products.json which is present at root)
+3. open the terminal and go to the directory where the json file is present
+4. in terminal, write the following command - 
+        json-server -p 5555 products.json
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.

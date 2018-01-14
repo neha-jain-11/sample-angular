@@ -9,13 +9,15 @@ import { HttpModule } from '@angular/http';
 import { FormsModule } from '@angular/forms';
 import { ProductComponent } from './product/product.component';
 import { UpdateProductComponent } from './update-product/update-product.component';
+import { RedColorDirective } from './red-color.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     ProductComponent,
-    UpdateProductComponent
+    UpdateProductComponent,
+    RedColorDirective
   ],
   imports: [
     BrowserModule,
